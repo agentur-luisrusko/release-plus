@@ -1,0 +1,24 @@
+{
+  "name": "release-plus",
+  "version": "1.0.3",
+  "description": "A simple release manager for automating releases and release notes with screenshots.",
+  "main": "index.js",
+  "bin": {
+    "release-manager": "./bin/release-plus.js"
+  },
+  "scripts": {
+    "start": "node ./bin/release-plus.js"
+  },
+  "keywords": [
+    "release",
+    "automation",
+    "gitlab"
+  ],
+  "author": "Luis Rusko",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "commander": "^12.1.0",
+    "puppeteer": "^23.3.0"
+  }
+}
